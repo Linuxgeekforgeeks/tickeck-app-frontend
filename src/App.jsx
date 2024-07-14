@@ -15,13 +15,18 @@ function App() {
       <Navbar/>
      <Routes>
       <Route path='/' index element={<Home/>}/>
+    
+      {/*
+      Protected Routes
       <Route path="/viewTicket" element={<PrivateRoutes/>}>
       <Route path='/viewTicket' element={<ViewTicket/>}/>
       </Route>
       <Route path="/createTicket" element={<PrivateRoutes/>}>
       <Route path='/createTicket' element={<CreateTicket/>}/>
-      </Route>
+      </Route> */}
       <Route path="/login" element={<Login/>}/>
+      <Route path="/viewTicket" element={<ViewTicket/>}/>
+      <Route path="/createTicket" element={<CreateTicket/>}/>
       <Route path="/register" element={<Register/>}/>
     </Routes>
     </>

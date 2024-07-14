@@ -1,0 +1,13 @@
+.create-ticket{
+    max-width: 80%;
+    margin: auto;
+}
+.create-ticket button{
+display: inline-flex;gap: .4rem;
+padding: .1rem 2rem;
+align-items: center;
+}
+.size-6{
+    width: 1.5rem;
+    height: 2rem;
+}
