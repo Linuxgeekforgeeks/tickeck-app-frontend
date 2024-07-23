@@ -1,13 +1,85 @@
-.create-ticket{
-    max-width: 80%;
-    margin: auto;
+.create-ticket {
+  max-width: 80%;
+  margin: auto;
 }
-.create-ticket button{
-display: inline-flex;gap: .4rem;
-padding: .1rem 2rem;
-align-items: center;
+.create-ticket button {
+  display: inline-flex;
+  gap: 0.4rem;
+  padding: 0.1rem 2rem;
+  align-items: center;
+  margin-top: 2rem;
 }
-.size-6{
-    width: 1.5rem;
-    height: 2rem;
+.size-6 {
+  width: 1.5rem;
+  height: 2rem;
+}
+.create-ticket-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 50%;
+  margin: auto;
+  /* background-color: red; */
+}
+.create-ticket-main header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-ticket-main header p {
+  font-weight: 900;
+  font-size: 1rem;
+}
+.input-organizer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-width: 100%;
+}
+.input-organizer input {
+  padding: 0.4rem 1rem;
+}
+.create-ticket-main main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.product-organizer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.product-organizer:nth-of-type(3) {
+  width: 100%;
+
+}
+
+.product-organizer select,
+option {
+  padding: 0.2rem;
+}
+.product-organizer option {
+  padding: 0.2rem;
+  margin-top: 0.3rem;
+}
+.input-organizer textarea{
+    padding: .3rem 1rem;
+    overflow: hidden;
+    height:6rem;
+    width:100%;
+    resize: none;
+}
+.create-ticket-main button {
+  text-align: center;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: .4rem 3rem;
+  font-weight: bold;
 }
